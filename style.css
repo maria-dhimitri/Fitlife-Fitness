@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  font-size: 20px;
+}
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+}
+header {
+  position: relative;
+  height: 80vh;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url(/starter-files/images/banner.jpg) center/cover no-repeat fixed;
+  color: #fff;
+  text-align: center;
+  padding: 90px;
+}
+header h1 {
+  position: absolute;
+  left: 50%;
+  bottom:50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  text-transform:capitalize;
+  width: 100%;
+}
+header h4{
+  position: absolute;
+  left: 50%;
+  bottom:50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  text-transform:initial;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+  margin: -5px;
+  font-weight: unset;
+}
+header button{
+  position: absolute;
+  left: 50%;
+  bottom:50%;
+  transform: translate(-50%, -10%);
+  font-size: 16px;
+  text-transform:initial;
+  width: 13%;
+  height: 8%;
+  margin:-60px;
+  margin-left: 15px;
+  background-color: #ff6f61;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.header:hover {
+  background-color: #e44334;;
+}
+.about-us{
+  text-align: left;
+  padding: 80px;
+  background-color: white;
+}
+.about-us h2{
+  font-size: 40px;
+  text-transform:capitalize;
+  width: 100%;
+
+}
+.about-us h3{
+  font-size: 20px;
+  font-weight: unset;
+}
+.class-parent {
+  width: auto;
+  padding-bottom: 60px;
+  padding-left:85px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.class-item {
+  display: grid;
+  width: 45%;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: white;
+}
+.classes-section h1{
+  font-size: 40px;
+  text-transform:capitalize;
+  width: 100%;
+  padding-left: 85px;
+  padding-top: 50px;
+}
+.classes-section h2{
+  font-size: 40px;
+  text-transform:capitalize;
+  width: 100%;
+}
+.class-item-inner {
+  background: white;
+  overflow: hidden;
+  margin: 25px;
+  text-decoration: none;
+  color: #333;
+}
+.content-box h3{
+  padding-top: 10px;
+}
+.class-item-inner:hover h3 {
+  color: #556b72;
+}
+.class-item .price {
+  width: 70px;
+  height: 50px;
+  position: relative;
+  top: -329px;
+  color: #fff;
+  border: 2px solid white;
+  color: #ff6f61;
+  background: white;
+  padding: 20px;
+  font-weight: bold;
+}
+.schedule{
+  text-align: left;
+  padding: 80px;
+  background-color: white;
+}
+.schedule h3{
+  font-size: 40px;
+  text-transform:capitalize;
+  width: 100%;
+}
+.schedule h4{
+  font-size: 20px;
+  font-weight: unset;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: transparent; 
+  border-bottom: 1px solid #ddd; 
+}
+tbody tr:nth-child(1) td {
+  border-bottom: 1px solid #ddd; 
+}
+tbody tr:nth-child(2) td {
+  border-bottom: 1px solid #ddd;
+}
+form {
+  margin-top: 20px;
+  display: grid;
+  gap: 10px;
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+  color: rgb(255, 255, 255);
+  padding: 30px;
+  background-color: #333;
+}
+.contact h2{
+  font-size: 40px;
+  text-transform: capitalize;
+  width: 100%;
+  padding-left:80px;
+  padding-top: 40px;
+}
+.contact p{
+  font-size: 20px;
+  text-transform:unset;
+  width: 100%;
+  padding-left:80px;
+  padding-top: 0px;
+}
+input, textarea {
+  padding: 10px;
+  font-size: 1rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+button {
+  width: 150px;
+  background-color: #ff6f61;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  font-size:15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #e44334;;
+}
+.contact{
+  padding-bottom: 100px;
+}
+footer {
+  background: #ff6f61;
+  color: white;
+  text-align: center;
+  padding: 20px ;
+  margin-top: 40px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
